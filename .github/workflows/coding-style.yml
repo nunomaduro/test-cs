@@ -37,5 +37,5 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-php-files.outputs.all_changed_files }}
         run: |
           for file in ${ALL_CHANGED_FILES}; do
-            pint --test $file
+            pint --test -v $file
           done

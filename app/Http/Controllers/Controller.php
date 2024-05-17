@@ -8,11 +8,10 @@ abstract class Controller
     {
         //
 
-
-
     }
 
-    public function aaaa() {
+    public function aaaa()
+    {
 
     }
     //
